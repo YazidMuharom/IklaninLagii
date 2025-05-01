@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IKLANIN - Website Periklanan</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo IKLANIN" />
+            <h1>IKLANIN</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#pasang">Pasang Iklan</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="beranda" class="hero">
+        <h2>Tempat Terbaik untuk Pasang Iklan Anda</h2>
+        <p>Jangkau lebih banyak pelanggan dengan IKLANIN!</p>
+    </section>
+
+    <section id="tentang">
+        <h2>Tentang IKLANIN</h2>
+        <p>
+            IKLANIN adalah platform periklanan online yang memungkinkan Anda
+            mempromosikan produk atau jasa dengan mudah dan cepat.
+        </p>
+    </section>
+
+    <section id="unggulan">
+        <h2>Iklan Unggulan</h2>
+        <div class="iklan-container">
+            <div class="iklan-item">
+                <h3>Promo Batik Diskon 50%</h3>
+                <p>Berlaku sampai 30 Mei 2025. Dapatkan hanya di Royalvin Batik!</p>
+            </div>
+            <div class="iklan-item">
+                <h3>Kursus Web Developer</h3>
+                <p>Belajar HTML, CSS, dan JavaScript dari nol!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pasang">
+        <h2>Pasang Iklan Anda</h2>
+        <form>
+            <label for="judul">Judul Iklan:</label>
+            <input type="text" id="judul" name="judul" required />
+
+            <label for="deskripsi">Deskripsi:</label>
+            <textarea id="deskripsi" name="deskripsi" required></textarea>
+
+            <label for="kontak">Kontak:</label>
+            <input type="text" id="kontak" name="kontak" required />
+
+            <button type="submit">Kirim Iklan</button>
+        </form>
+    </section>
+
+    <footer id="kontak">
+        <p>&copy; 2025 IKLANIN. All rights reserved.</p>
+        <p>Email: info@iklanin.com | IG: @iklanin.id</p>
+    </footer>
+</body>
+
+</html>
